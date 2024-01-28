@@ -1,0 +1,10 @@
+<div class="container">
+  <h1>Stupid coaching</h1>
+  <form action="/answer" data-turbo="false">
+      <div class="input-group">
+        <input type="text" name="your_message" class="form-control mb-3" >
+        <input type="submit" value="Ask!" class="btn btn-primary pr-1 mb-3" >
+      </div>
+  </form>
+  <%= link_to "Back answer", answer_path  %>
+</div>
